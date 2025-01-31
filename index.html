@@ -33,9 +33,48 @@
             }
         }
     </script>
+    <style>
+        .adlam-display-regular {
+            font-family: "ADLaM Display", serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .sora-uniquifier {
+            font-family: "Sora", serif;
+            font-optical-sizing: auto;
+            font-weight: weight;
+            font-style: normal;
+        }
+    </style>
+
 </head>
 
-<body>
+<body class="bg-white text-gray-900">
+
+    <!-- Navbar -->
+    <nav class="flex items-center justify-between px-6 py-4 bg-yellow-50 sora-uniquifier">
+        <div class="flex items-center space-x-2">
+            <i class="fa-solid fa-paw text-yellow-500 text-5xl"></i>
+            <span class="text-xl font-semibold">Browse<span class="text-yellow-500">4</span>Pets</span>
+
+        </div>
+        <div class="space-x-6 hidden md:flex ">
+
+            <a href="#" class="hover:text-yellow-500">Find a pet</a>
+            <a href="#" class="hover:text-yellow-500">Breeds</a>
+            <a href="#" class="hover:text-yellow-500">Contact us</a>
+
+        </div>
+        <div class="space-x-4 hidden md:flex">
+            <button class="px-4 py-2 border border-yellow-600 rounded-md hover:bg-yellow-600">Login</button>
+            <button class="px-4 py-2 bg-yellow-500 text-white rounded-md hover:bg-yellow-600">Register</button>
+
+        </div>
+        <div class="md:hidden text-3xl">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
 
 </body>
 
